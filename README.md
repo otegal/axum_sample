@@ -1,20 +1,20 @@
 # axum_sample
 
 ## setup
-```shell
+```sh
 $ docker-compose build
 $ docker-compose up
 ```
 
 ## usage
-```shell
+```sh
 # hello_world
-$ curl http://localhost:3001
+$ curl http://localhost:8080
 > Hello, World!
 ```
 
 ## deploy for Cloud Run
-```shell
+```sh
 # gcloud auth docker
 # cf. https://cloud.google.com/artifact-registry/docs/docker/quickstart?hl=ja#auth
 $ gcloud auth configure-docker asia-northeast3-docker.pkg.dev
