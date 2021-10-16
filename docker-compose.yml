@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  axum_sample:
+    container_name: axum_sample
+    build:
+      context: .
+      target: dev
+    volumes:
+      - .:/app
+    environment: []
+    depends_on: []
+    command: cargo watch -x "run" -w src
+    tty: true
+    ports:
+      - 3030:3030
