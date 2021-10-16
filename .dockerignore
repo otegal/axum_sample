@@ -1,4 +1,7 @@
 .git/
+.idea/
 target/
 Dockerfile
+README.md
 docker-compose.yml
+
